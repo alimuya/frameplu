@@ -31,7 +31,7 @@
 		<!-- <property name="packagesToScan" value="com.alimuya.sum.servlet"></property> -->
 		<property name="packagesToScan">
 			<list>
-				<value>com.alimuya.redright</value>
+				<value>com.alimuya.frameplu</value>
 			</list>
 		</property>
 		<property name="dataSource" ref="dataSource"></property>

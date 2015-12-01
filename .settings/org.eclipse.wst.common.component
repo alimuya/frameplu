@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="redright">
+    <wb-module deploy-name="frameplu">
         <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java/user"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java/resource"/>
-        <property name="context-root" value="redright"/>
-        <property name="java-output-path" value="/redright/WebRoot/WEB-INF/classes"/>
+        <property name="context-root" value="frameplu"/>
+        <property name="java-output-path" value="/frameplu/WebRoot/WEB-INF/classes"/>
     </wb-module>
 </project-modules>

@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
  * @date 2015年12月2日 下午11:05:11 
  */
 @Repository
-class UserNamePasswordDao {
+public class UserNamePasswordDao {
 	@Autowired
 	private  SessionFactory sessionFactory;
 	

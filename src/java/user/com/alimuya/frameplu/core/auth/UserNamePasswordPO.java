@@ -14,7 +14,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
  */
 @Entity
 @Table(name="auth_username_password")
-@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE) 
+//@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE) 
 public class UserNamePasswordPO {
 	@Id
 	@Column(name="uid")  
@@ -23,6 +23,9 @@ public class UserNamePasswordPO {
 	private String username;
 	@Column(name="password")  
 	private String password;
+	@Column(name="safe_mail") 
+	private String safeEmail;
+	
 	public Long getUid() {
 		return uid;
 	}
@@ -40,6 +43,12 @@ public class UserNamePasswordPO {
 	}
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	public String getSafeEmail() {
+		return safeEmail;
+	}
+	public void setSafeEmail(String safeEmail) {
+		this.safeEmail = safeEmail;
 	}
 	
 }

@@ -28,7 +28,6 @@
 	</bean>
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-		<!-- <property name="packagesToScan" value="com.alimuya.sum.servlet"></property> -->
 		<property name="packagesToScan">
 			<list>
 				<value>com.alimuya.frameplu</value>
@@ -44,9 +43,9 @@
 				<prop key="hibernate.format_sql">true</prop> 
 				<prop key="hibernate.use_sql_comments">true</prop> 
 				
-				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<!-- <prop key="hibernate.cache.use_second_level_cache">false</prop>
 				<prop key="hibernate.cache.use_query_cache">false</prop> 
-				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop> 
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>  -->
 				
 			</props>
 		</property>
